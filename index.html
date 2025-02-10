@@ -6,7 +6,7 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
-<body class="flex items-center justify-center h-screen bg-gray-900">
+<body class="flex flex-col items-center justify-center h-screen bg-gray-900">
     <div class="bg-blue-200 p-6 rounded-lg shadow-lg w-80 h-90">
         <input id="display" type="text" class="w-full p-2 mb-8 mt-3 text-right  border-2 rounded" disabled>
         <div class="grid grid-cols-4 gap-3">
@@ -29,6 +29,9 @@
             <button class="btn bg-white" onclick="appendToDisplay('.')">.</button>
         </div>
     </div>
+    <footer>
+        <div class="text-center text-white">@NileshRana</div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
